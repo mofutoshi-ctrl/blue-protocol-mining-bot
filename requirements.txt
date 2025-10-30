@@ -1,0 +1,15 @@
+opencv-python
+tensorflow
+scikit-learn
+pyautogui
+pydirectinput
+mss
+keyboard
+pandas
+scipy
+pyyaml
+requests
+tqdm
+colorama
+matplotlib
+statsmodels
