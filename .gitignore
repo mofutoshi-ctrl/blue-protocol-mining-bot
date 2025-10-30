@@ -1,0 +1,37 @@
+# Python gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+.Python
+
+# Virtual environments
+venv/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Data
+/data/ore_screenshots/
+/data/market_history/
+
+# Model files
+models/*.h5
+models/*.pkl
+
+# macOS Finder files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Other standard Python exclusions
+*.egg-info/
+*.egg
+*.whl
