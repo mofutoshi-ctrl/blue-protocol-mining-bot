@@ -1,0 +1,36 @@
+CHARACTER:
+  name: "BotName"
+  type: "Miner"
+  level: 1
+
+MINING:
+  tools:
+    - "Pickaxe"
+    - "Drill"
+  efficiency: 95
+
+ZONES:
+  - name: "Zone 1"
+    danger_level: "Low"
+  - name: "Zone 2"
+    danger_level: "Medium"
+
+SAFETY:
+  health_threshold: 30
+  retreat_on_enemy: true
+
+MARKET:
+  sell_items:
+    - "Ore"
+    - "Gems"
+  buy_items:
+    - "Upgrades"
+    - "Potions"
+
+AI_TIERS:
+  tier_1:
+    description: "Basic AI"
+    capabilities: ["Mining", "Exploration"]
+  tier_2:
+    description: "Advanced AI"
+    capabilities: ["Mining", "Exploration", "Combat"]
